@@ -5,15 +5,276 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BackRoads</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <title>BackRoads || T21</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./static/fontawesome-free-5.9.0-web/css/all.css">
     <link rel="stylesheet" href="./static/css/index.css">
 </head>
 
 <body>
+    <input type="checkbox" name="check-menu" class="check-menu" id="check-menu">
+    <header class="header">
+        <div class="menu-controls">
+            <a href="/" class="logo-link"><img src="./static/img/logo.svg" alt="logo"></a>
+            <label for="check-menu" class="menu-icon"><img src="./static/img/icon-hamburger.svg" alt=""></label>
+        </div>
+        <div class="full-width">
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="/" class="menu-link">home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">about</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#services" class="menu-link">services</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#tours" class="menu-link">featured</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#gallery" class="menu-link">gallery</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="header-social">
+            <ul class="header-social-list">
+                <li class="header-social-item">
+                    <a href="https://www.facebook.com/" class="header-social-link"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="header-social-item">
+                    <a href="https://twitter.com" class="header-social-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="header-social-item">
+                    <a href="" class="header-social-link"><i class="fab fa-squarespace"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <section class="hero">
+            <div class="banner">
+                <h2 class="banner-title">
+                    continue exploring
+                </h2>
+                <p class="banner-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, dolore voluptatibus blanditiis quas
+                </p>
+                <a href="" class="btn banner-btn">explore tours</a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2 class="title">about <span>us</span></h2>
+            <div class="about-data">
+                <div class="about-img-container">
+                    <img src="./static/img/about.jpeg" alt="about">
+                </div>
+
+                <div class="about-info">
+                    <h3 class="sub">explore the difference</h3>
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos id iusto reiciendis cumque cum tempora sint explicabo nulla magnam inventore.</p>
+
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos id iusto reiciendis cumque cum tempora sint explicabo nulla magnam inventore.</p>
+                    <a href="" class="btn about-btn">read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <h1 class="title">our <span>services</span></s>
+            </h1>
+            <div class="services-container">
+                <article class="service-item">
+                    <div class="service-icon-container">
+                        <span><i class="fas fa-wallet fa-fw"></i></span>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-sub sub">
+                            saving money
+                        </h3>
+                        <p class="service-desc desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eaque
+                        </p>
+                    </div>
+                </article>
+                <article class="service-item">
+                    <div class="service-icon-container">
+                        <span><i class="fas fa-tree fa-fw"></i></span>
+                    </div>
+                    <div class="service-info">
+
+                        <p class="service-desc desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eaque
+                        </p>
+                    </div>
+                </article>
+                <article class="service-item">
+                    <div class="service-icon-container">
+                        <span><i class="fas fa-socks fa-fw"></i></span>
+                    </div>
+                    <div class="service-info">
+
+                        <p class="service-desc desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eaque
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="tours" id="tours">
+            <h2 class="title">featured <span>tours</span></h2>
+            <div class="tours-card-container">
+                <article class="tour-card">
+                    <div class="card-img-container">
+                        <img src="./static/img/tour-1.jpeg" alt="tour">
+                        <p class="card-img-date">august 14th, 2019</p>
+                    </div>
+                    <div class="tour-card-info">
+                        <h3 class="card-title title">tibet adventure</h3>
+                        <div class="card-data">
+                            <p class="tour-card-place"><span><i class="fas fa-map"></i></span>china</p>
+                            <p class="tour-card-price">
+                                6 days <br> from $2100
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="tour-card">
+                    <div class="card-img-container">
+                        <img src="./static/img/tour-2.jpeg" alt="tour">
+                        <p class="card-img-date">august 14th, 2019</p>
+                    </div>
+                    <div class="tour-card-info">
+                        <h3 class="card-title title">best of java</h3>
+                        <div class="card-data">
+                            <p class="tour-card-place"><span><i class="fas fa-map"></i></span>indonesia</p>
+                            <p class="tour-card-price">
+                                10 days <br> from $4100
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="tour-card">
+                    <div class="card-img-container">
+                        <img src="./static/img/tour-3.jpeg" alt="tour">
+                        <p class="card-img-date">september 26th, 2019</p>
+                    </div>
+                    <div class="tour-card-info">
+                        <h3 class="card-title title">explore hong kong</h3>
+                        <div class="card-data">
+                            <p class="tour-card-place"><span><i class="fas fa-map"></i></span>hong kong</p>
+                            <p class="tour-card-price">
+                                12 days <br> from $3100
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="tour-card">
+                    <div class="card-img-container">
+                        <img src="./static/img/tour-4.jpeg" alt="tour">
+                        <p class="card-img-date">december 5th, 2019</p>
+                    </div>
+                    <div class="tour-card-info">
+                        <h3 class="card-title title">kenya highlights</h3>
+                        <div class="card-data">
+                            <p class="tour-card-place"><span><i class="fas fa-map"></i></span>kenya</p>
+                            <p class="tour-card-price">
+                                22 days <br> from $5400
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <a href="/" class="btn tours-btn">all tours</a>
+        </section>
+        <section class="gallery" id="gallery">
+            <h2 class="title gallery-title">our <span>gallery</span></h2>
+            <div class="gallery-image-container">
+                <div class="img-container">
+                    <img src="./static/img/tour-1.jpeg" alt="tour-1">
+                    <span class="icon-container"><i class="fas fa-search"></i></span>
+                </div>
+                <div class="img-container">
+                    <img src="./static/img/tour-2.jpeg" alt="tour-1">
+                    <span class="icon-container"><i class="fas fa-search"></i></span>
+                </div>
+                <div class="img-container">
+                    <img src="./static/img/tour-3.jpeg" alt="tour-1">
+                    <span class="icon-container"><i class="fas fa-search"></i></span>
+                </div>
+                <div class="img-container">
+                    <img src="./static/img/tour-4.jpeg" alt="tour-1">
+                    <span class="icon-container"><i class="fas fa-search"></i></span>
+                </div>
+                <div class="img-container">
+                    <img src="./static/img/tour-5.jpeg" alt="tour-1">
+                    <span class="icon-container"><i class="fas fa-search"></i></span>
+                </div>
+                <div class="img-container">
+                    <img src="./static/img/tour-6.jpeg" alt="tour-1">
+                    <span class="icon-container"><i class="fas fa-search"></i></span>
+                </div>
+            </div>
+        </section>
+        <section class="deals">
+            <h2 class="title deals-title">hot <span>deals</span></h2>
+            <div class="deals-form-container">
+                <form action="" class="deals-form">
+                    <input type="email" name="deals-email" id="deals-email" placeholder="YOUR EMAIL">
+                    <button type="submit" class="deals-form-btn">submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-menu">
+            <ul class="footer-menu-list">
+                <li class="footer-menu-item">
+                    <a href="#home" class="footer-menu-link">home</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="#about" class="footer-menu-link">about</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="service" class="footer-menu-link">services</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="#featured" class="footer-menu-link">featured</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="#gallery" class="footer-menu-link">gallery</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="footer-social">
+            <ul class="footer-social-list">
+                <li class="footer-social-item">
+                    <a href="https://www.facebook.com/" class="footer-social-link"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="https://twitter.com" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="" class="footer-social-link"><i class="fab fa-squarespace"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p> copyright © Backroads travel tours company 2021. all rights reserved</p>
+            <p class="footer-attr">challenge by : <a href="https://www.johnsmilga.com/">John Smilga</a> code by: <a href="https://github.com/Takata21">MTakata</a></p>
+        </div>
+    </footer>
 
 </body>
 
