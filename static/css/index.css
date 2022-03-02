@@ -771,6 +771,7 @@ body {
 
 .copyright p {
     width: 85vw;
+    margin: auto;
     text-align: center;
     text-transform: capitalize;
     letter-spacing: var(--mainSpacing);
